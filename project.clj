@@ -34,7 +34,7 @@
                 :figwheel true
 
                 :compiler {:main test-lein-multi-build.app1.core
-                           :asset-path "js/compiled/out"
+                           :asset-path "js/compiled/app1_out"
                            :output-to "resources/public/js/compiled/app1.js"
                            :output-dir "resources/public/js/compiled/app1_out"
                            :source-map-timestamp true
@@ -46,7 +46,7 @@
                 :figwheel true
 
                 :compiler {:main test-lein-multi-build.app2.core
-                           :asset-path "js/compiled/out"
+                           :asset-path "js/compiled/app2_out"
                            :output-to "resources/public/js/compiled/app2.js"
                            :output-dir "resources/public/js/compiled/app2_out"
                            :source-map-timestamp true
